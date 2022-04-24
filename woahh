@@ -1,0 +1,323 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Sex Hub v2"})
+
+local Tab = Window:MakeTab({
+	Name = "Build a boat",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Autobuild",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/nuddaL/GameStatsRevamped/scripts/unnedded"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Image Loader",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/StenDirt/Trash-Game/main/Script2.lua"))()
+  	end    
+})
+
+Tab:AddLabel("this shit always breaks so dont expect it to work")
+
+Tab:AddButton({
+	Name = "Inf blocks",
+	Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/EdqFHFp1"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Start Autofarm",
+	Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/kw5eCvyN"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Stop Autofarm",
+	Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/V1nSdtyT"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "arctic hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TheArcticDev/ArcticHub/main/GameChecker.lua"))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Bedwars",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Vape V4",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+  	end    
+})
+
+
+local Tab = Window:MakeTab({
+	Name = "CB:RO",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "AstralHook/Lucid",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Danixik/henlo/main/astralhook", true))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Arsenal",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "OwlHub",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+  	end    
+})
+
+
+local Tab = Window:MakeTab({
+	Name = "BRM5",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Autofarm",
+	Callback = function()
+        getgenv().AutofarmConfig = {
+            Keybind = "F6",
+            Align = CFrame.new(0,-4,0),
+            UseSecondaryWeapon = false,
+            EnableOptimization = false
+            }
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexR32/Roblox/main/BRM5/Autofarm.lua"))()            
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Autofarm 2",
+	Callback = function()
+        getgenv().AutofarmConfig = {
+            Keybind = "F6",
+            Align = CFrame.new(0,-4,0),
+            UseSecondaryWeapon = false,
+            EnableOptimization = true
+            }
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexR32/Roblox/main/BRM5/Autofarm.lua"))()
+            
+  	end    
+})
+
+Tab:AddParagraph("explaining lmao","Autofarm 2 has fps boost, will freeze game for like 5 sec after execution tho")
+
+
+local Tab = Window:MakeTab({
+	Name = "MM2",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Eclipse",
+	Callback = function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script'),true))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Swat Simulator",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "50,000 EXP",
+	Callback = function()
+		game.ReplicatedStorage.addXP:ServerFire(50000)
+  	end    
+})
+
+Tab:AddLabel("Spamming may crash.")
+
+local Tab = Window:MakeTab({
+	Name = "Lumber tycoon 2",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Plain Gui, unknown name.",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/7TWBE49Js4Tak7GL8iIZLCLr4M8jJHZB4HFA12K/lt2/main/lt2ancestor"))()
+  	end    
+})
+
+Tab:AddLabel("HIGH CHANCE YOU MIGHT GET BANNED, USE AT YOUR OWN RISK!!")
+
+local Tab = Window:MakeTab({
+	Name = "PTFS",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "all gamepasses",
+	Callback = function()
+		game.Players.LocalPlayer.UserId = "1273413"
+  	end    
+})
+
+Tab:AddLabel("roblox probs fixed this trick but its whatever")
+
+local Tab = Window:MakeTab({
+	Name = "Epic minigames",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "GUI",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/SlamminPig/rblxgames/main/Epic%20Minigames/EpicMinigamesGUI"))()
+  	end    
+})
+
+Tab:AddLabel("this is the most easy to find script lol")
+
+local Tab = Window:MakeTab({
+	Name = "3008",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Gui",
+	Callback = function()
+		loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/scripts/main/3008.lua')()
+  	end    
+})
+
+Tab:AddLabel("script probs doesnt work anymore, idk doe")
+
+local Tab = Window:MakeTab({
+	Name = "BloxBurg",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "autofarm",
+	Callback = function()
+		local http_request = http_request or request or (syn and syn.request) or (http and http.request)
+		loadstring(http_request({Url="https://chroma.temple.cx/scripts/bloxburg.lua", Method="GET"}).Body)()
+  	end    
+})
+
+Tab:AddLabel("pretty old method, high chance it wont work lol")
+
+local Tab = Window:MakeTab({
+	Name = "anomic",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "gui",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/HELLLO1073/RobloxStuff/main/SMain.lua"))()
+  	end    
+})
+
+Tab:AddLabel("might have a key idk tbh")
+
+local Tab = Window:MakeTab({
+	Name = "Bitcoin Miner",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "arctic hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TheArcticDev/ArcticHub/main/GameChecker.lua"))()
+  	end    
+})
+
+Tab:AddLabel("went threw another mboost, fuck me dude")
+
+
+
+local Tab = Window:MakeTab({
+	Name = "Premium",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = true
+})
+
+Tab:AddParagraph("Thanks!","Hey.. Looks like youve bought Sirius premium.. Isnt that very nice right?.. I guess this is a thanks?!")
+
+local Tab = Window:MakeTab({
+	Name = "OTHERS!!",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddParagraph("Sex Hub Origin"," Sex hubs first version wasnt named v1, just Sex Hub. The owner is currently unknown. But the first hub was made in 4/23/2022.")
+
+Tab:AddParagraph("Responsibility","Rather then most scripts/hubs, i will be taking responsibility for your bans. i will give you an account with the same amount of progress. at the same time dont expect me to do the full amount because it would most likely be pretty hard to get. especially on games like bloxburg.")
+
+local Tab = Window:MakeTab({
+	Name = "Misc",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Infinite yield",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Fates Admin",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "DomainX",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/DomainX/main/source',true))()
+  	end    
+})
+
+OrionLib:MakeNotification({
+	Name = "Sex Hub",
+	Content = "Loaded sex hub!, enjoy ^_^",
+	Time = 5
+})
+
+OrionLib:MakeNotification({
+	Name = "",
+	Content = "Check all tabs cuz ye",
+	Time = 5
+})
